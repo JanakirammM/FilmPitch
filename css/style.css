@@ -132,6 +132,38 @@ ol {
   position: relative;
   padding-bottom: 25px;
 }
+.section-title h4 {
+  color: #ffffff;
+  font-weight: 100;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+}
+.section-title h4:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 70px;
+  background: #00bfe7;
+  content: "";
+}
+.section-title h1 {
+  color: #ffffff;
+  font-weight: 100;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+}
+.section-title h1:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 70px;
+  background: #00bfe7;
+  content: "";
+}
 .section-title h2:after {
   position: absolute;
   left: 0;
